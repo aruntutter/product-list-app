@@ -5,7 +5,7 @@ import Filter from "./components/Filter";
 
 const App = () => {
   const [products, setProducts] = useState([]);
-  const [category, setCategory] = useState("category");
+  const [category, setCategory] = useState("");
   const [sortBy, setSortBy] = useState("");
 
   useEffect(() => {
