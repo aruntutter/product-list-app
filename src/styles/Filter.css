@@ -1,0 +1,51 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 20px 0;
+  gap: 5px;
+  padding: 20px 0;
+  background-color: slategrey;
+}
+
+.filter label {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.filter select {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 200px;
+  background-color: #ccc;
+}
+
+@media (max-width: 767px) {
+
+  .filter {
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filter label {
+    margin-left: 0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .filter label:nth-child(3) {
+    margin-left: 14px;
+  }
+
+  .filter select {
+    padding: 2px;
+    max-width: 90px;
+    font-size: 12px;
+  }
+}
