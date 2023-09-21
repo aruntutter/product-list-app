@@ -5,7 +5,7 @@ import Filter from "./components/Filter";
 
 const App = () => {
   const [products, setProducts] = useState([]);
-  const [category, setCategory] = useState("jewellery");
+  const [category, setCategory] = useState("category");
   const [sortBy, setSortBy] = useState("");
 
   useEffect(() => {
@@ -20,7 +20,9 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      <h1 style={{ textAlign: "center" }}>Product List App</h1>
+      <h1 style={{ textAlign: "center", marginTop: "20px" }}>
+        Product List App
+      </h1>
       <Filter
         category={category}
         setCategory={setCategory}

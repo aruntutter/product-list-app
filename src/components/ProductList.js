@@ -3,20 +3,18 @@ import ProductCard from "./ProductCard";
 import "../styles/ProductList.css";
 
 const ProductList = ({ products, category, sortBy }) => {
-  let filteredProducts = products;
+  let filteredProducts = [...products];
 
-  if (category) {
+  if (category !== "") {
     filteredProducts = filteredProducts.filter(
       (product) => product.category === category
     );
   }
 
-  if (sortBy === "category") {
-    filteredProducts.sort((a, b) => a.category.localeCompare(b.category));
-  } else if (sortBy === "price") {
+  if (sortBy === "price") {
     filteredProducts.sort((a, b) => a.price - b.price);
   } else if (sortBy === "rating") {
-    filteredProducts.sort((a, b) => b.rating - a.rating);
+    filteredProducts.sort((a, b) => b.rating.rate - a.rating.rate);
   }
 
   return (
