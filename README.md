@@ -1,6 +1,4 @@
-# Project Name
-
-Give your project a meaningful name.
+# React Product List
 
 ## Table of Contents
 
@@ -16,12 +14,12 @@ Give your project a meaningful name.
 
 ## Links
 
-- Solution URL: [GitHub Repository](https://github.com/your-username/your-repo)
-- Live Demo: [Live Demo URL](https://your-project-live-demo-url.com)
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/product-list-app)
+- Live Demo: [Live Demo URL](https://master--symphonious-cactus-cadab1.netlify.app/)
 
 ## Description
 
-Provide a brief description of your project, highlighting its main purpose and features.
+React Product List is a simple project that allows users to view a list of products, perform sorting, filtering, and search operations based on categories. The project fetches product data from an API to provide an interactive and dynamic user experience.
 
 ## Screenshot
 
@@ -29,28 +27,39 @@ Provide a brief description of your project, highlighting its main purpose and f
 
 ## Demo
 
-Include a link to a live demo of your project, if available. You can use services like GitHub Pages, Netlify, or Heroku to host your project.
+Explore the live demo: [React Product List Demo](https://master--symphonious-cactus-cadab1.netlify.app/)
 
 ## Features
 
-List the main features and functionalities of your project. You can use bullet points or a numbered list.
+- Display a list of products from an API.
+- Sort products based on various criteria (e.g., name, price).
+- Filter products by category.
+- Search functionality to find specific products.
 
 ## Technologies Used
 
-Mention the technologies, tools, and frameworks used in your project. For example:
+- React
+- JavaScript
 - HTML
 - CSS
-- JavaScript
-- React
+- API for product data
 
 ## Usage
 
-Explain how to use your project. You can provide code examples, screenshots, or even GIFs to demonstrate its usage.
+1. Clone the repository: `git clone [https://github.com/your-username/react-product-list.git](https://github.com/aruntutter/product-list-app)`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
+
+Now you can interact with the React Product List application, explore products, perform sorting, filtering, and search operations.
 
 ## What I Learned
 
-Share what you learned while working on this project. You can mention any new concepts, techniques, or insights gained through the development process. This section can be valuable for personal reflection and to showcase your growth as a developer.
+While working on this project, I gained insights into:
+- Fetching and handling data from an external API in a React application.
+- Implementing sorting and filtering functionalities in React.
+- Enhancing user experience through dynamic updates based on user interactions.
 
 ## Contributing
 
-Indicate if you're open to contributions and how others can contribute to your project. You can mention things like submitting bug reports, suggesting new features, or submitting pull requests.
+Contributions to enhance features, fix bugs, or improve the overall project are welcome. Feel free to submit bug reports, suggest new features, or create pull requests. Let's collaborate to make React Product List even better!
