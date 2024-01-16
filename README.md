@@ -23,7 +23,7 @@ React Product List is a simple project that allows users to view a list of produ
 
 ## Screenshot
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](./src/assets/images/Screenshot.png)
 
 ## Demo
 
