@@ -27,7 +27,7 @@ React Product List is a simple project that allows users to view a list of produ
 
 ## Demo
 
-Explore the live demo: [React Product List Demo](https://master--symphonious-cactus-cadab1.netlify.app/)
+Explore the live demo: [Here](https://master--symphonious-cactus-cadab1.netlify.app/)
 
 ## Features
 
